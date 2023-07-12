@@ -29,6 +29,10 @@ body {
   grid-template-columns: 1fr 2fr 2fr;
 }
 
+.instagram-embeds {
+  margin: 30px 0;
+}
+
 section {
   max-width: 100%;
   margin: 0 auto;
@@ -104,6 +108,7 @@ main h2 {
   color: #272044;
   opacity: 0.3;
   text-transform: uppercase;
+  text-align: center;
 }
 
 main h3 {
@@ -258,7 +263,4 @@ footer a {
   .embed {
     aspect-ratio: 16 /9;
   }
-}
-
-@media (min-width: 800px) {
 }
